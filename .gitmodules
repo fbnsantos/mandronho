@@ -1,0 +1,3 @@
+[submodule "sim/Agrob4Simulation"]
+	path = sim/Agrob4Simulation
+	url = https://gitlab.inesctec.pt/agrob/Agrob4Simulation.git

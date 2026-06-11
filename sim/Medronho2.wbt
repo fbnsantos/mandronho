@@ -1,0 +1,7016 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.02062242292785139 0.01039753739958487 0.9997332678712905 4.075359824956337
+  position 1.6730950893683811 8.379555386010415 0.95839610157795
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Solid {
+  translation -2.28 1.22 -4.97
+  children [
+    Shape {
+      appearance Appearance {
+      }
+      geometry Sphere {
+        radius 0.015
+      }
+    }
+  ]
+}
+Solid {
+  translation -3 3 0
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/trees/protos/textures/cherry_tree.png"
+          ]
+          repeatS FALSE
+          repeatT FALSE
+        }
+        roughness 1
+        metalness 0
+      }
+      geometry IndexedFaceSet {
+        coord Coordinate {
+          point [
+            1 0 0
+            6.123233995736766e-17 1 0
+            -1 1.2246467991473532e-16 0
+            -1.8369701987210297e-16 -1 0
+            1 0 2
+            6.123233995736766e-17 1 2
+            -1 1.2246467991473532e-16 2
+            -1.8369701987210297e-16 -1 2
+          ]
+        }
+        texCoord TextureCoordinate {
+          point [
+            0 0
+            1 0
+            0 1
+            1 1
+          ]
+        }
+        coordIndex [
+          4, 0, 2, 6, -1, 4, 6, 2, 0, -1
+          5, 1, 3, 7, -1, 5, 7, 3, 1, -1
+        ]
+        texCoordIndex [
+          2, 0, 1, 3, -1, 3, 2, 0, 1, -1
+          2, 0, 1, 3, -1, 3, 2, 0, 1, -1
+        ]
+      }
+    }
+    Solid {
+      translation 1.2 -0.3 0
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+    }
+    Solid {
+      translation 0 0.6 1.2
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(21)"
+    }
+    
+  ]
+  name "tree(10)"
+  model "cherry tree"
+  boundingObject Pose {
+    translation 0 0 1
+    children [
+      Cylinder {
+        radius 0.1
+      }
+    ]
+  }
+  locked TRUE
+  recognitionColors [
+    0.1 0.4 0
+  ]
+}
+Solid {
+  translation -3 0 0
+  rotation 0 0 1 1.5707996938995747
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/trees/protos/textures/cherry_tree.png"
+          ]
+          repeatS FALSE
+          repeatT FALSE
+        }
+        roughness 1
+        metalness 0
+      }
+      geometry IndexedFaceSet {
+        coord Coordinate {
+          point [
+            1 0 0
+            6.123233995736766e-17 1 0
+            -1 1.2246467991473532e-16 0
+            -1.8369701987210297e-16 -1 0
+            1 0 2
+            6.123233995736766e-17 1 2
+            -1 1.2246467991473532e-16 2
+            -1.8369701987210297e-16 -1 2
+          ]
+        }
+        texCoord TextureCoordinate {
+          point [
+            0 0
+            1 0
+            0 1
+            1 1
+          ]
+        }
+        coordIndex [
+          4, 0, 2, 6, -1, 4, 6, 2, 0, -1
+          5, 1, 3, 7, -1, 5, 7, 3, 1, -1
+        ]
+        texCoordIndex [
+          2, 0, 1, 3, -1, 3, 2, 0, 1, -1
+          2, 0, 1, 3, -1, 3, 2, 0, 1, -1
+        ]
+      }
+    }
+    Solid {
+      translation 0 0.6 1.05
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(1)"
+    }
+    Solid {
+      translation 0 0.3 1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.013
+          }
+        }
+      ]
+      name "solid(2)"
+    }
+    Solid {
+      translation 0 0.2 0.8
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(3)"
+    }
+    Solid {
+      translation 0 0.5 0.9
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(4)"
+    }
+    Solid {
+      translation 0 -0.6 1.2
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(5)"
+    }
+    Solid {
+      translation 0 -0.3 1.3
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(6)"
+    }
+    Solid {
+      translation 0 0.4 1.5
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(7)"
+    }
+    Solid {
+      translation 0 0.2 1.6
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(8)"
+    }
+    Solid {
+      translation 0 -0.2 1.52
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(9)"
+    }
+    Solid {
+      translation 0 -0.28 1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(10)"
+    }
+    Solid {
+      translation 0 -0.21 0.7
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(11)"
+    }
+    Solid {
+      translation 0 0.2 1.3
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(12)"
+    }
+    Solid {
+      translation 0 0.6 1.2
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(21)"
+    }
+    Solid {
+      translation 0 -0.3 1.7
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(22)"
+    }
+    Solid {
+      translation 0 -0.4 1.1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(23)"
+    }
+    Solid {
+      translation 0 0.2 1.1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(13)"
+    }
+    Solid {
+      translation 0 -0.3 0.85
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(24)"
+    }
+    Solid {
+      translation 0 0.5 1.4
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(25)"
+    }
+    Solid {
+      translation 0 -0.1 1.4
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(26)"
+    }
+    Solid {
+      translation 0 -0.66 0.85
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(27)"
+    }
+    Solid {
+      translation 0 -0.45 1.25
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(28)"
+    }
+    Solid {
+      translation 0 0.29 1.4
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.752941 0.109804 0.156863
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(29)"
+    }
+    Solid {
+      translation 0 0.4 1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(30)"
+    }
+    Solid {
+      translation 0 0.35 1.2
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(14)"
+    }
+    Solid {
+      translation 0 -0.52 0.9
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(15)"
+    }
+    Solid {
+      translation 0 0.72 0.9
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(16)"
+    }
+    Solid {
+      translation 0 -0.2 1.15
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.960784 0.760784 0.0666667
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(17)"
+    }
+    Solid {
+      translation 0 0.36 0.7
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(18)"
+    }
+    Solid {
+      translation 0 -0.42 1.43
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(19)"
+    }
+    Solid {
+      translation 0 -0.67 0.7
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(20)"
+    }
+  ]
+  name "tree(12)"
+  model "cherry tree"
+  boundingObject Pose {
+    translation 0 0 1
+    children [
+      Cylinder {
+        radius 0.1
+      }
+    ]
+  }
+  locked TRUE
+  recognitionColors [
+    0.1 0.4 0
+  ]
+}
+Solid {
+  translation -3 -3 0
+  rotation 0 0 1 1.5707996938995747
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/trees/protos/textures/cherry_tree.png"
+          ]
+          repeatS FALSE
+          repeatT FALSE
+        }
+        roughness 1
+        metalness 0
+      }
+      geometry IndexedFaceSet {
+        coord Coordinate {
+          point [
+            1 0 0
+            6.123233995736766e-17 1 0
+            -1 1.2246467991473532e-16 0
+            -1.8369701987210297e-16 -1 0
+            1 0 2
+            6.123233995736766e-17 1 2
+            -1 1.2246467991473532e-16 2
+            -1.8369701987210297e-16 -1 2
+          ]
+        }
+        texCoord TextureCoordinate {
+          point [
+            0 0
+            1 0
+            0 1
+            1 1
+          ]
+        }
+        coordIndex [
+          4, 0, 2, 6, -1, 4, 6, 2, 0, -1
+          5, 1, 3, 7, -1, 5, 7, 3, 1, -1
+        ]
+        texCoordIndex [
+          2, 0, 1, 3, -1, 3, 2, 0, 1, -1
+          2, 0, 1, 3, -1, 3, 2, 0, 1, -1
+        ]
+      }
+    }
+    Solid {
+      translation 0 0.6 1.05
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(1)"
+    }
+    Solid {
+      translation 0 0.3 1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.013
+          }
+        }
+      ]
+      name "solid(2)"
+    }
+    Solid {
+      translation 0 0.2 0.8
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(3)"
+    }
+    Solid {
+      translation 0 0.5 0.9
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(4)"
+    }
+    Solid {
+      translation 0 -0.6 1.2
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(5)"
+    }
+    Solid {
+      translation 0 -0.3 1.3
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(6)"
+    }
+    Solid {
+      translation 0 0.4 1.5
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(7)"
+    }
+    Solid {
+      translation 0 0.2 1.6
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(8)"
+    }
+    Solid {
+      translation 0 -0.2 1.52
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(9)"
+    }
+    Solid {
+      translation 0 -0.28 1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(10)"
+    }
+    Solid {
+      translation 0 -0.21 0.7
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(11)"
+    }
+    Solid {
+      translation 0 0.2 1.3
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(12)"
+    }
+    Solid {
+      translation 0 0.6 1.2
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(21)"
+    }
+    Solid {
+      translation 0 -0.3 1.7
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(22)"
+    }
+    Solid {
+      translation 0 -0.4 1.1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(23)"
+    }
+    Solid {
+      translation 0 0.2 1.1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(13)"
+    }
+    Solid {
+      translation 0 -0.3 0.85
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(24)"
+    }
+    Solid {
+      translation 0 0.5 1.4
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(25)"
+    }
+    Solid {
+      translation 0 -0.1 1.4
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(26)"
+    }
+    Solid {
+      translation 0 -0.66 0.85
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(27)"
+    }
+    Solid {
+      translation 0 -0.45 1.25
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(28)"
+    }
+    Solid {
+      translation 0 0.29 1.4
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.752941 0.109804 0.156863
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(29)"
+    }
+    Solid {
+      translation 0 0.4 1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(30)"
+    }
+    Solid {
+      translation 0 0.35 1.2
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(14)"
+    }
+    Solid {
+      translation 0 -0.52 0.9
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(15)"
+    }
+    Solid {
+      translation 0 0.72 0.9
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(16)"
+    }
+    Solid {
+      translation 0 -0.2 1.15
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.960784 0.760784 0.0666667
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(17)"
+    }
+    Solid {
+      translation 0 0.36 0.7
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(18)"
+    }
+    Solid {
+      translation 0 -0.42 1.43
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(19)"
+    }
+    Solid {
+      translation 0 -0.67 0.7
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(20)"
+    }
+  ]
+  name "tree(13)"
+  model "cherry tree"
+  boundingObject Pose {
+    translation 0 0 1
+    children [
+      Cylinder {
+        radius 0.1
+      }
+    ]
+  }
+  locked TRUE
+  recognitionColors [
+    0.1 0.4 0
+  ]
+}
+Solid {
+  translation -3 -6 0
+  rotation 0 0 1 -1.5707996938995747
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/trees/protos/textures/cherry_tree.png"
+          ]
+          repeatS FALSE
+          repeatT FALSE
+        }
+        roughness 1
+        metalness 0
+      }
+      geometry IndexedFaceSet {
+        coord Coordinate {
+          point [
+            1 0 0
+            6.123233995736766e-17 1 0
+            -1 1.2246467991473532e-16 0
+            -1.8369701987210297e-16 -1 0
+            1 0 2
+            6.123233995736766e-17 1 2
+            -1 1.2246467991473532e-16 2
+            -1.8369701987210297e-16 -1 2
+          ]
+        }
+        texCoord TextureCoordinate {
+          point [
+            0 0
+            1 0
+            0 1
+            1 1
+          ]
+        }
+        coordIndex [
+          4, 0, 2, 6, -1, 4, 6, 2, 0, -1
+          5, 1, 3, 7, -1, 5, 7, 3, 1, -1
+        ]
+        texCoordIndex [
+          2, 0, 1, 3, -1, 3, 2, 0, 1, -1
+          2, 0, 1, 3, -1, 3, 2, 0, 1, -1
+        ]
+      }
+    }
+    Solid {
+      translation 0 0.6 1.05
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(1)"
+    }
+    Solid {
+      translation 0 0.3 1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.013
+          }
+        }
+      ]
+      name "solid(2)"
+    }
+    Solid {
+      translation 0 0.2 0.8
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(3)"
+    }
+    Solid {
+      translation 0 0.5 0.9
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(4)"
+    }
+    Solid {
+      translation 0 -0.6 1.2
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(5)"
+    }
+    Solid {
+      translation 0 -0.3 1.3
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(6)"
+    }
+    Solid {
+      translation 0 0.4 1.5
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(7)"
+    }
+    Solid {
+      translation 0 0.2 1.6
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(8)"
+    }
+    Solid {
+      translation 0 -0.2 1.52
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(9)"
+    }
+    Solid {
+      translation 0 -0.28 1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(10)"
+    }
+    Solid {
+      translation 0 -0.21 0.7
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(11)"
+    }
+    Solid {
+      translation 0 0.2 1.3
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(12)"
+    }
+    Solid {
+      translation 0 0.6 1.2
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(21)"
+    }
+    Solid {
+      translation 0 -0.3 1.7
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(22)"
+    }
+    Solid {
+      translation 0 -0.4 1.1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(23)"
+    }
+    Solid {
+      translation 0 0.2 1.1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(13)"
+    }
+    Solid {
+      translation 0 -0.3 0.85
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(24)"
+    }
+    Solid {
+      translation 0 0.5 1.4
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(25)"
+    }
+    Solid {
+      translation 0 -0.1 1.4
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(26)"
+    }
+    Solid {
+      translation 0 -0.66 0.85
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(27)"
+    }
+    Solid {
+      translation 0 -0.45 1.25
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(28)"
+    }
+    Solid {
+      translation 0 0.29 1.4
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.752941 0.109804 0.156863
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(29)"
+    }
+    Solid {
+      translation 0 0.4 1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(30)"
+    }
+    Solid {
+      translation 0 0.35 1.2
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(14)"
+    }
+    Solid {
+      translation 0 -0.52 0.9
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(15)"
+    }
+    Solid {
+      translation 0 0.72 0.9
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(16)"
+    }
+    Solid {
+      translation 0 -0.2 1.15
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.960784 0.760784 0.0666667
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(17)"
+    }
+    Solid {
+      translation 0 0.36 0.7
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(18)"
+    }
+    Solid {
+      translation 0 -0.42 1.43
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(19)"
+    }
+    Solid {
+      translation 0 -0.67 0.7
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(20)"
+    }
+  ]
+  name "tree(14)"
+  model "cherry tree"
+  boundingObject Pose {
+    translation 0 0 1
+    children [
+      Cylinder {
+        radius 0.1
+      }
+    ]
+  }
+  locked TRUE
+  recognitionColors [
+    0.1 0.4 0
+  ]
+}
+Solid {
+  translation -3 -9 0
+  rotation 0 0 1 -1.5707996938995747
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/trees/protos/textures/cherry_tree.png"
+          ]
+          repeatS FALSE
+          repeatT FALSE
+        }
+        roughness 1
+        metalness 0
+      }
+      geometry IndexedFaceSet {
+        coord Coordinate {
+          point [
+            1 0 0
+            6.123233995736766e-17 1 0
+            -1 1.2246467991473532e-16 0
+            -1.8369701987210297e-16 -1 0
+            1 0 2
+            6.123233995736766e-17 1 2
+            -1 1.2246467991473532e-16 2
+            -1.8369701987210297e-16 -1 2
+          ]
+        }
+        texCoord TextureCoordinate {
+          point [
+            0 0
+            1 0
+            0 1
+            1 1
+          ]
+        }
+        coordIndex [
+          4, 0, 2, 6, -1, 4, 6, 2, 0, -1
+          5, 1, 3, 7, -1, 5, 7, 3, 1, -1
+        ]
+        texCoordIndex [
+          2, 0, 1, 3, -1, 3, 2, 0, 1, -1
+          2, 0, 1, 3, -1, 3, 2, 0, 1, -1
+        ]
+      }
+    }
+    Solid {
+      translation 0 0.6 1.05
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(1)"
+    }
+    Solid {
+      translation 0 0.3 1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.013
+          }
+        }
+      ]
+      name "solid(2)"
+    }
+    Solid {
+      translation 0 0.2 0.8
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(3)"
+    }
+    Solid {
+      translation 0 0.5 0.9
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(4)"
+    }
+    Solid {
+      translation 0 -0.6 1.2
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(5)"
+    }
+    Solid {
+      translation 0 -0.3 1.3
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(6)"
+    }
+    Solid {
+      translation 0 0.4 1.5
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(7)"
+    }
+    Solid {
+      translation 0 0.2 1.6
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(8)"
+    }
+    Solid {
+      translation 0 -0.2 1.52
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(9)"
+    }
+    Solid {
+      translation 0 -0.28 1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(10)"
+    }
+    Solid {
+      translation 0 -0.21 0.7
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(11)"
+    }
+    Solid {
+      translation 0 0.2 1.3
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(12)"
+    }
+    Solid {
+      translation 0 0.6 1.2
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(21)"
+    }
+    Solid {
+      translation 0 -0.3 1.7
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(22)"
+    }
+    Solid {
+      translation 0 -0.4 1.1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(23)"
+    }
+    Solid {
+      translation 0 0.2 1.1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(13)"
+    }
+    Solid {
+      translation 0 -0.3 0.85
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(24)"
+    }
+    Solid {
+      translation 0 0.5 1.4
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(25)"
+    }
+    Solid {
+      translation 0 -0.1 1.4
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(26)"
+    }
+    Solid {
+      translation 0 -0.66 0.85
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(27)"
+    }
+    Solid {
+      translation 0 -0.45 1.25
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(28)"
+    }
+    Solid {
+      translation 0 0.29 1.4
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.752941 0.109804 0.156863
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(29)"
+    }
+    Solid {
+      translation 0 0.4 1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(30)"
+    }
+    Solid {
+      translation 0 0.35 1.2
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(14)"
+    }
+    Solid {
+      translation 0 -0.52 0.9
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(15)"
+    }
+    Solid {
+      translation 0 0.72 0.9
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(16)"
+    }
+    Solid {
+      translation 0 -0.2 1.15
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.960784 0.760784 0.0666667
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(17)"
+    }
+    Solid {
+      translation 0 0.36 0.7
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(18)"
+    }
+    Solid {
+      translation 0 -0.42 1.43
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(19)"
+    }
+    Solid {
+      translation 0 -0.67 0.7
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(20)"
+    }
+  ]
+  name "tree(15)"
+  model "cherry tree"
+  boundingObject Pose {
+    translation 0 0 1
+    children [
+      Cylinder {
+        radius 0.1
+      }
+    ]
+  }
+  locked TRUE
+  recognitionColors [
+    0.1 0.4 0
+  ]
+}
+Solid {
+  translation -3 -12 0
+  rotation 0 0 1 -1.5707996938995747
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/trees/protos/textures/cherry_tree.png"
+          ]
+          repeatS FALSE
+          repeatT FALSE
+        }
+        roughness 1
+        metalness 0
+      }
+      geometry IndexedFaceSet {
+        coord Coordinate {
+          point [
+            1 0 0
+            6.123233995736766e-17 1 0
+            -1 1.2246467991473532e-16 0
+            -1.8369701987210297e-16 -1 0
+            1 0 2
+            6.123233995736766e-17 1 2
+            -1 1.2246467991473532e-16 2
+            -1.8369701987210297e-16 -1 2
+          ]
+        }
+        texCoord TextureCoordinate {
+          point [
+            0 0
+            1 0
+            0 1
+            1 1
+          ]
+        }
+        coordIndex [
+          4, 0, 2, 6, -1, 4, 6, 2, 0, -1
+          5, 1, 3, 7, -1, 5, 7, 3, 1, -1
+        ]
+        texCoordIndex [
+          2, 0, 1, 3, -1, 3, 2, 0, 1, -1
+          2, 0, 1, 3, -1, 3, 2, 0, 1, -1
+        ]
+      }
+    }
+    Solid {
+      translation 0 0.6 1.05
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(1)"
+    }
+    Solid {
+      translation 0 0.3 1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.013
+          }
+        }
+      ]
+      name "solid(2)"
+    }
+    Solid {
+      translation 0 0.2 0.8
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(3)"
+    }
+    Solid {
+      translation 0 0.5 0.9
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(4)"
+    }
+    Solid {
+      translation 0 -0.6 1.2
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(5)"
+    }
+    Solid {
+      translation 0 -0.3 1.3
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(6)"
+    }
+    Solid {
+      translation 0 0.4 1.5
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(7)"
+    }
+    Solid {
+      translation 0 0.2 1.6
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(8)"
+    }
+    Solid {
+      translation 0 -0.2 1.52
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(9)"
+    }
+    Solid {
+      translation 0 -0.28 1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(10)"
+    }
+    Solid {
+      translation 0 -0.21 0.7
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(11)"
+    }
+    Solid {
+      translation 0 0.2 1.3
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(12)"
+    }
+    Solid {
+      translation 0 0.6 1.2
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(21)"
+    }
+    Solid {
+      translation 0 -0.3 1.7
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(22)"
+    }
+    Solid {
+      translation 0 -0.4 1.1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(23)"
+    }
+    Solid {
+      translation 0 0.2 1.1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(13)"
+    }
+    Solid {
+      translation 0 -0.3 0.85
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(24)"
+    }
+    Solid {
+      translation 0 0.5 1.4
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(25)"
+    }
+    Solid {
+      translation 0 -0.1 1.4
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(26)"
+    }
+    Solid {
+      translation 0 -0.66 0.85
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(27)"
+    }
+    Solid {
+      translation 0 -0.45 1.25
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(28)"
+    }
+    Solid {
+      translation 0 0.29 1.4
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.752941 0.109804 0.156863
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(29)"
+    }
+    Solid {
+      translation 0 0.4 1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(30)"
+    }
+    Solid {
+      translation 0 0.35 1.2
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(14)"
+    }
+    Solid {
+      translation 0 -0.52 0.9
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(15)"
+    }
+    Solid {
+      translation 0 0.72 0.9
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(16)"
+    }
+    Solid {
+      translation 0 -0.2 1.15
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.960784 0.760784 0.0666667
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(17)"
+    }
+    Solid {
+      translation 0 0.36 0.7
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(18)"
+    }
+    Solid {
+      translation 0 -0.42 1.43
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(19)"
+    }
+    Solid {
+      translation 0 -0.67 0.7
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(20)"
+    }
+  ]
+  name "tree(16)"
+  model "cherry tree"
+  boundingObject Pose {
+    translation 0 0 1
+    children [
+      Cylinder {
+        radius 0.1
+      }
+    ]
+  }
+  locked TRUE
+  recognitionColors [
+    0.1 0.4 0
+  ]
+}
+Solid {
+  translation 7 -12 1.75
+  rotation 0 0 1 -1.5707996938995747
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/trees/protos/textures/cherry_tree.png"
+          ]
+          repeatS FALSE
+          repeatT FALSE
+        }
+        roughness 1
+        metalness 0
+      }
+      geometry IndexedFaceSet {
+        coord Coordinate {
+          point [
+            1 0 0
+            6.123233995736766e-17 1 0
+            -1 1.2246467991473532e-16 0
+            -1.8369701987210297e-16 -1 0
+            1 0 2
+            6.123233995736766e-17 1 2
+            -1 1.2246467991473532e-16 2
+            -1.8369701987210297e-16 -1 2
+          ]
+        }
+        texCoord TextureCoordinate {
+          point [
+            0 0
+            1 0
+            0 1
+            1 1
+          ]
+        }
+        coordIndex [
+          4, 0, 2, 6, -1, 4, 6, 2, 0, -1
+          5, 1, 3, 7, -1, 5, 7, 3, 1, -1
+        ]
+        texCoordIndex [
+          2, 0, 1, 3, -1, 3, 2, 0, 1, -1
+          2, 0, 1, 3, -1, 3, 2, 0, 1, -1
+        ]
+      }
+    }
+    Solid {
+      translation 0 0.6 1.05
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(1)"
+    }
+    Solid {
+      translation 0 0.3 1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.013
+          }
+        }
+      ]
+      name "solid(2)"
+    }
+    Solid {
+      translation 0 0.2 0.8
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(3)"
+    }
+    Solid {
+      translation 0 0.5 0.9
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(4)"
+    }
+    Solid {
+      translation 0 -0.6 1.2
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(5)"
+    }
+    Solid {
+      translation 0 -0.3 1.3
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(6)"
+    }
+    Solid {
+      translation 0 0.4 1.5
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(7)"
+    }
+    Solid {
+      translation 0 0.2 1.6
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(8)"
+    }
+    Solid {
+      translation 0 -0.2 1.52
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(9)"
+    }
+    Solid {
+      translation 0 -0.28 1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(10)"
+    }
+    Solid {
+      translation 0 -0.21 0.7
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(11)"
+    }
+    Solid {
+      translation 0 0.2 1.3
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(12)"
+    }
+    Solid {
+      translation 0 0.6 1.2
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(21)"
+    }
+    Solid {
+      translation 0 -0.3 1.7
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(22)"
+    }
+    Solid {
+      translation 0 -0.4 1.1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(23)"
+    }
+    Solid {
+      translation 0 0.2 1.1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(13)"
+    }
+    Solid {
+      translation 0 -0.3 0.85
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(24)"
+    }
+    Solid {
+      translation 0 0.5 1.4
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(25)"
+    }
+    Solid {
+      translation 0 -0.1 1.4
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(26)"
+    }
+    Solid {
+      translation 0 -0.66 0.85
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(27)"
+    }
+    Solid {
+      translation 0 -0.45 1.25
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(28)"
+    }
+    Solid {
+      translation 0 0.29 1.4
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.752941 0.109804 0.156863
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(29)"
+    }
+    Solid {
+      translation 0 0.4 1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(30)"
+    }
+    Solid {
+      translation 0 0.35 1.2
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(14)"
+    }
+    Solid {
+      translation 0 -0.52 0.9
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(15)"
+    }
+    Solid {
+      translation 0 0.72 0.9
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(16)"
+    }
+    Solid {
+      translation 0 -0.2 1.15
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.960784 0.760784 0.0666667
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(17)"
+    }
+    Solid {
+      translation 0 0.36 0.7
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(18)"
+    }
+    Solid {
+      translation 0 -0.42 1.43
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(19)"
+    }
+    Solid {
+      translation 0 -0.67 0.7
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(20)"
+    }
+  ]
+  name "tree(17)"
+  model "cherry tree"
+  boundingObject Pose {
+    translation 0 0 1
+    children [
+      Cylinder {
+        radius 0.1
+      }
+    ]
+  }
+  locked TRUE
+  recognitionColors [
+    0.1 0.4 0
+  ]
+}
+Solid {
+  translation 7 -9 1.75
+  rotation 0 0 1 -1.5707996938995747
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/trees/protos/textures/cherry_tree.png"
+          ]
+          repeatS FALSE
+          repeatT FALSE
+        }
+        roughness 1
+        metalness 0
+      }
+      geometry IndexedFaceSet {
+        coord Coordinate {
+          point [
+            1 0 0
+            6.123233995736766e-17 1 0
+            -1 1.2246467991473532e-16 0
+            -1.8369701987210297e-16 -1 0
+            1 0 2
+            6.123233995736766e-17 1 2
+            -1 1.2246467991473532e-16 2
+            -1.8369701987210297e-16 -1 2
+          ]
+        }
+        texCoord TextureCoordinate {
+          point [
+            0 0
+            1 0
+            0 1
+            1 1
+          ]
+        }
+        coordIndex [
+          4, 0, 2, 6, -1, 4, 6, 2, 0, -1
+          5, 1, 3, 7, -1, 5, 7, 3, 1, -1
+        ]
+        texCoordIndex [
+          2, 0, 1, 3, -1, 3, 2, 0, 1, -1
+          2, 0, 1, 3, -1, 3, 2, 0, 1, -1
+        ]
+      }
+    }
+    Solid {
+      translation 0 0.6 1.05
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(1)"
+    }
+    Solid {
+      translation 0 0.3 1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.013
+          }
+        }
+      ]
+      name "solid(2)"
+    }
+    Solid {
+      translation 0 0.2 0.8
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(3)"
+    }
+    Solid {
+      translation 0 0.5 0.9
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(4)"
+    }
+    Solid {
+      translation 0 -0.6 1.2
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(5)"
+    }
+    Solid {
+      translation 0 -0.3 1.3
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(6)"
+    }
+    Solid {
+      translation 0 0.4 1.5
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(7)"
+    }
+    Solid {
+      translation 0 0.2 1.6
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(8)"
+    }
+    Solid {
+      translation 0 -0.2 1.52
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(9)"
+    }
+    Solid {
+      translation 0 -0.28 1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(10)"
+    }
+    Solid {
+      translation 0 -0.21 0.7
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(11)"
+    }
+    Solid {
+      translation 0 0.2 1.3
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(12)"
+    }
+    Solid {
+      translation 0 0.6 1.2
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(21)"
+    }
+    Solid {
+      translation 0 -0.3 1.7
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(22)"
+    }
+    Solid {
+      translation 0 -0.4 1.1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(23)"
+    }
+    Solid {
+      translation 0 0.2 1.1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(13)"
+    }
+    Solid {
+      translation 0 -0.3 0.85
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(24)"
+    }
+    Solid {
+      translation 0 0.5 1.4
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(25)"
+    }
+    Solid {
+      translation 0 -0.1 1.4
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(26)"
+    }
+    Solid {
+      translation 0 -0.66 0.85
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(27)"
+    }
+    Solid {
+      translation 0 -0.45 1.25
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(28)"
+    }
+    Solid {
+      translation 0 0.29 1.4
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.752941 0.109804 0.156863
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(29)"
+    }
+    Solid {
+      translation 0 0.4 1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(30)"
+    }
+    Solid {
+      translation 0 0.35 1.2
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(14)"
+    }
+    Solid {
+      translation 0 -0.52 0.9
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(15)"
+    }
+    Solid {
+      translation 0 0.72 0.9
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(16)"
+    }
+    Solid {
+      translation 0 -0.2 1.15
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.960784 0.760784 0.0666667
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(17)"
+    }
+    Solid {
+      translation 0 0.36 0.7
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(18)"
+    }
+    Solid {
+      translation 0 -0.42 1.43
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(19)"
+    }
+    Solid {
+      translation 0 -0.67 0.7
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(20)"
+    }
+  ]
+  name "tree(18)"
+  model "cherry tree"
+  boundingObject Pose {
+    translation 0 0 1
+    children [
+      Cylinder {
+        radius 0.1
+      }
+    ]
+  }
+  locked TRUE
+  recognitionColors [
+    0.1 0.4 0
+  ]
+}
+Solid {
+  translation 7 -6 1.75
+  rotation 0 0 1 -1.5707996938995747
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/trees/protos/textures/cherry_tree.png"
+          ]
+          repeatS FALSE
+          repeatT FALSE
+        }
+        roughness 1
+        metalness 0
+      }
+      geometry IndexedFaceSet {
+        coord Coordinate {
+          point [
+            1 0 0
+            6.123233995736766e-17 1 0
+            -1 1.2246467991473532e-16 0
+            -1.8369701987210297e-16 -1 0
+            1 0 2
+            6.123233995736766e-17 1 2
+            -1 1.2246467991473532e-16 2
+            -1.8369701987210297e-16 -1 2
+          ]
+        }
+        texCoord TextureCoordinate {
+          point [
+            0 0
+            1 0
+            0 1
+            1 1
+          ]
+        }
+        coordIndex [
+          4, 0, 2, 6, -1, 4, 6, 2, 0, -1
+          5, 1, 3, 7, -1, 5, 7, 3, 1, -1
+        ]
+        texCoordIndex [
+          2, 0, 1, 3, -1, 3, 2, 0, 1, -1
+          2, 0, 1, 3, -1, 3, 2, 0, 1, -1
+        ]
+      }
+    }
+    Solid {
+      translation 0 0.6 1.05
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(1)"
+    }
+    Solid {
+      translation 0 0.3 1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.013
+          }
+        }
+      ]
+      name "solid(2)"
+    }
+    Solid {
+      translation 0 0.2 0.8
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(3)"
+    }
+    Solid {
+      translation 0 0.5 0.9
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(4)"
+    }
+    Solid {
+      translation 0 -0.6 1.2
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(5)"
+    }
+    Solid {
+      translation 0 -0.3 1.3
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(6)"
+    }
+    Solid {
+      translation 0 0.4 1.5
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(7)"
+    }
+    Solid {
+      translation 0 0.2 1.6
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(8)"
+    }
+    Solid {
+      translation 0 -0.2 1.52
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(9)"
+    }
+    Solid {
+      translation 0 -0.28 1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(10)"
+    }
+    Solid {
+      translation 0 -0.21 0.7
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(11)"
+    }
+    Solid {
+      translation 0 0.2 1.3
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(12)"
+    }
+    Solid {
+      translation 0 0.6 1.2
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(21)"
+    }
+    Solid {
+      translation 0 -0.3 1.7
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(22)"
+    }
+    Solid {
+      translation 0 -0.4 1.1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(23)"
+    }
+    Solid {
+      translation 0 0.2 1.1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(13)"
+    }
+    Solid {
+      translation 0 -0.3 0.85
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(24)"
+    }
+    Solid {
+      translation 0 0.5 1.4
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(25)"
+    }
+    Solid {
+      translation 0 -0.1 1.4
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(26)"
+    }
+    Solid {
+      translation 0 -0.66 0.85
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(27)"
+    }
+    Solid {
+      translation 0 -0.45 1.25
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(28)"
+    }
+    Solid {
+      translation 0 0.29 1.4
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.752941 0.109804 0.156863
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(29)"
+    }
+    Solid {
+      translation 0 0.4 1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(30)"
+    }
+    Solid {
+      translation 0 0.35 1.2
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(14)"
+    }
+    Solid {
+      translation 0 -0.52 0.9
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(15)"
+    }
+    Solid {
+      translation 0 0.72 0.9
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(16)"
+    }
+    Solid {
+      translation 0 -0.2 1.15
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.960784 0.760784 0.0666667
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(17)"
+    }
+    Solid {
+      translation 0 0.36 0.7
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(18)"
+    }
+    Solid {
+      translation 0 -0.42 1.43
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(19)"
+    }
+    Solid {
+      translation 0 -0.67 0.7
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(20)"
+    }
+  ]
+  name "tree(19)"
+  model "cherry tree"
+  boundingObject Pose {
+    translation 0 0 1
+    children [
+      Cylinder {
+        radius 0.1
+      }
+    ]
+  }
+  locked TRUE
+  recognitionColors [
+    0.1 0.4 0
+  ]
+}
+Solid {
+  translation 7 -3 1.75
+  rotation 0 0 1 -1.5707996938995747
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/trees/protos/textures/cherry_tree.png"
+          ]
+          repeatS FALSE
+          repeatT FALSE
+        }
+        roughness 1
+        metalness 0
+      }
+      geometry IndexedFaceSet {
+        coord Coordinate {
+          point [
+            1 0 0
+            6.123233995736766e-17 1 0
+            -1 1.2246467991473532e-16 0
+            -1.8369701987210297e-16 -1 0
+            1 0 2
+            6.123233995736766e-17 1 2
+            -1 1.2246467991473532e-16 2
+            -1.8369701987210297e-16 -1 2
+          ]
+        }
+        texCoord TextureCoordinate {
+          point [
+            0 0
+            1 0
+            0 1
+            1 1
+          ]
+        }
+        coordIndex [
+          4, 0, 2, 6, -1, 4, 6, 2, 0, -1
+          5, 1, 3, 7, -1, 5, 7, 3, 1, -1
+        ]
+        texCoordIndex [
+          2, 0, 1, 3, -1, 3, 2, 0, 1, -1
+          2, 0, 1, 3, -1, 3, 2, 0, 1, -1
+        ]
+      }
+    }
+    Solid {
+      translation 0 0.6 1.05
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(1)"
+    }
+    Solid {
+      translation 0 0.3 1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.013
+          }
+        }
+      ]
+      name "solid(2)"
+    }
+    Solid {
+      translation 0 0.2 0.8
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(3)"
+    }
+    Solid {
+      translation 0 0.5 0.9
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(4)"
+    }
+    Solid {
+      translation 0 -0.6 1.2
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(5)"
+    }
+    Solid {
+      translation 0 -0.3 1.3
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(6)"
+    }
+    Solid {
+      translation 0 0.4 1.5
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(7)"
+    }
+    Solid {
+      translation 0 0.2 1.6
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(8)"
+    }
+    Solid {
+      translation 0 -0.2 1.52
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(9)"
+    }
+    Solid {
+      translation 0 -0.28 1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(10)"
+    }
+    Solid {
+      translation 0 -0.21 0.7
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(11)"
+    }
+    Solid {
+      translation 0 0.2 1.3
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(12)"
+    }
+    Solid {
+      translation 0 0.6 1.2
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(21)"
+    }
+    Solid {
+      translation 0 -0.3 1.7
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(22)"
+    }
+    Solid {
+      translation 0 -0.4 1.1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(23)"
+    }
+    Solid {
+      translation 0 0.2 1.1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(13)"
+    }
+    Solid {
+      translation 0 -0.3 0.85
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(24)"
+    }
+    Solid {
+      translation 0 0.5 1.4
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(25)"
+    }
+    Solid {
+      translation 0 -0.1 1.4
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(26)"
+    }
+    Solid {
+      translation 0 -0.66 0.85
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(27)"
+    }
+    Solid {
+      translation 0 -0.45 1.25
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(28)"
+    }
+    Solid {
+      translation 0 0.29 1.4
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.752941 0.109804 0.156863
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(29)"
+    }
+    Solid {
+      translation 0 0.4 1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(30)"
+    }
+    Solid {
+      translation 0 0.35 1.2
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(14)"
+    }
+    Solid {
+      translation 0 -0.52 0.9
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(15)"
+    }
+    Solid {
+      translation 0 0.72 0.9
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(16)"
+    }
+    Solid {
+      translation 0 -0.2 1.15
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.960784 0.760784 0.0666667
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(17)"
+    }
+    Solid {
+      translation 0 0.36 0.7
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(18)"
+    }
+    Solid {
+      translation 0 -0.42 1.43
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(19)"
+    }
+    Solid {
+      translation 0 -0.67 0.7
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(20)"
+    }
+  ]
+  name "tree(20)"
+  model "cherry tree"
+  boundingObject Pose {
+    translation 0 0 1
+    children [
+      Cylinder {
+        radius 0.1
+      }
+    ]
+  }
+  locked TRUE
+  recognitionColors [
+    0.1 0.4 0
+  ]
+}
+Solid {
+  translation 7 0 1.75
+  rotation 0 0 1 -1.5707996938995747
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/trees/protos/textures/cherry_tree.png"
+          ]
+          repeatS FALSE
+          repeatT FALSE
+        }
+        roughness 1
+        metalness 0
+      }
+      geometry IndexedFaceSet {
+        coord Coordinate {
+          point [
+            1 0 0
+            6.123233995736766e-17 1 0
+            -1 1.2246467991473532e-16 0
+            -1.8369701987210297e-16 -1 0
+            1 0 2
+            6.123233995736766e-17 1 2
+            -1 1.2246467991473532e-16 2
+            -1.8369701987210297e-16 -1 2
+          ]
+        }
+        texCoord TextureCoordinate {
+          point [
+            0 0
+            1 0
+            0 1
+            1 1
+          ]
+        }
+        coordIndex [
+          4, 0, 2, 6, -1, 4, 6, 2, 0, -1
+          5, 1, 3, 7, -1, 5, 7, 3, 1, -1
+        ]
+        texCoordIndex [
+          2, 0, 1, 3, -1, 3, 2, 0, 1, -1
+          2, 0, 1, 3, -1, 3, 2, 0, 1, -1
+        ]
+      }
+    }
+    Solid {
+      translation 0 0.6 1.05
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(1)"
+    }
+    Solid {
+      translation 0 0.3 1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.013
+          }
+        }
+      ]
+      name "solid(2)"
+    }
+    Solid {
+      translation 0 0.2 0.8
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(3)"
+    }
+    Solid {
+      translation 0 0.5 0.9
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(4)"
+    }
+    Solid {
+      translation 0 -0.6 1.2
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(5)"
+    }
+    Solid {
+      translation 0 -0.3 1.3
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(6)"
+    }
+    Solid {
+      translation 0 0.4 1.5
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(7)"
+    }
+    Solid {
+      translation 0 0.2 1.6
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(8)"
+    }
+    Solid {
+      translation 0 -0.2 1.52
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(9)"
+    }
+    Solid {
+      translation 0 -0.28 1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(10)"
+    }
+    Solid {
+      translation 0 -0.21 0.7
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(11)"
+    }
+    Solid {
+      translation 0 0.2 1.3
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(12)"
+    }
+    Solid {
+      translation 0 0.6 1.2
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(21)"
+    }
+    Solid {
+      translation 0 -0.3 1.7
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(22)"
+    }
+    Solid {
+      translation 0 -0.4 1.1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(23)"
+    }
+    Solid {
+      translation 0 0.2 1.1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(13)"
+    }
+    Solid {
+      translation 0 -0.3 0.85
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(24)"
+    }
+    Solid {
+      translation 0 0.5 1.4
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(25)"
+    }
+    Solid {
+      translation 0 -0.1 1.4
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(26)"
+    }
+    Solid {
+      translation 0 -0.66 0.85
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(27)"
+    }
+    Solid {
+      translation 0 -0.45 1.25
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(28)"
+    }
+    Solid {
+      translation 0 0.29 1.4
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.752941 0.109804 0.156863
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(29)"
+    }
+    Solid {
+      translation 0 0.4 1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(30)"
+    }
+    Solid {
+      translation 0 0.35 1.2
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(14)"
+    }
+    Solid {
+      translation 0 -0.52 0.9
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(15)"
+    }
+    Solid {
+      translation 0 0.72 0.9
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(16)"
+    }
+    Solid {
+      translation 0 -0.2 1.15
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.960784 0.760784 0.0666667
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(17)"
+    }
+    Solid {
+      translation 0 0.36 0.7
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(18)"
+    }
+    Solid {
+      translation 0 -0.42 1.43
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(19)"
+    }
+    Solid {
+      translation 0 -0.67 0.7
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(20)"
+    }
+  ]
+  name "tree(21)"
+  model "cherry tree"
+  boundingObject Pose {
+    translation 0 0 1
+    children [
+      Cylinder {
+        radius 0.1
+      }
+    ]
+  }
+  locked TRUE
+  recognitionColors [
+    0.1 0.4 0
+  ]
+}
+Solid {
+  translation 7 3 1.75
+  rotation 0 0 1 -1.5707996938995747
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/trees/protos/textures/cherry_tree.png"
+          ]
+          repeatS FALSE
+          repeatT FALSE
+        }
+        roughness 1
+        metalness 0
+      }
+      geometry IndexedFaceSet {
+        coord Coordinate {
+          point [
+            1 0 0
+            6.123233995736766e-17 1 0
+            -1 1.2246467991473532e-16 0
+            -1.8369701987210297e-16 -1 0
+            1 0 2
+            6.123233995736766e-17 1 2
+            -1 1.2246467991473532e-16 2
+            -1.8369701987210297e-16 -1 2
+          ]
+        }
+        texCoord TextureCoordinate {
+          point [
+            0 0
+            1 0
+            0 1
+            1 1
+          ]
+        }
+        coordIndex [
+          4, 0, 2, 6, -1, 4, 6, 2, 0, -1
+          5, 1, 3, 7, -1, 5, 7, 3, 1, -1
+        ]
+        texCoordIndex [
+          2, 0, 1, 3, -1, 3, 2, 0, 1, -1
+          2, 0, 1, 3, -1, 3, 2, 0, 1, -1
+        ]
+      }
+    }
+    Solid {
+      translation 0 0.6 1.05
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(1)"
+    }
+    Solid {
+      translation 0 0.3 1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.013
+          }
+        }
+      ]
+      name "solid(2)"
+    }
+    Solid {
+      translation 0 0.2 0.8
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(3)"
+    }
+    Solid {
+      translation 0 0.5 0.9
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(4)"
+    }
+    Solid {
+      translation 0 -0.6 1.2
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(5)"
+    }
+    Solid {
+      translation 0 -0.3 1.3
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(6)"
+    }
+    Solid {
+      translation 0 0.4 1.5
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(7)"
+    }
+    Solid {
+      translation 0 0.2 1.6
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(8)"
+    }
+    Solid {
+      translation 0 -0.2 1.52
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(9)"
+    }
+    Solid {
+      translation 0 -0.28 1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(10)"
+    }
+    Solid {
+      translation 0 -0.21 0.7
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(11)"
+    }
+    Solid {
+      translation 0 0.2 1.3
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(12)"
+    }
+    Solid {
+      translation 0 0.6 1.2
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(21)"
+    }
+    Solid {
+      translation 0 -0.3 1.7
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(22)"
+    }
+    Solid {
+      translation 0 -0.4 1.1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(23)"
+    }
+    Solid {
+      translation 0 0.2 1.1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(13)"
+    }
+    Solid {
+      translation 0 -0.3 0.85
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(24)"
+    }
+    Solid {
+      translation 0 0.5 1.4
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(25)"
+    }
+    Solid {
+      translation 0 -0.1 1.4
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(26)"
+    }
+    Solid {
+      translation 0 -0.66 0.85
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(27)"
+    }
+    Solid {
+      translation 0 -0.45 1.25
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(28)"
+    }
+    Solid {
+      translation 0 0.29 1.4
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.752941 0.109804 0.156863
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.015
+          }
+        }
+      ]
+      name "solid(29)"
+    }
+    Solid {
+      translation 0 0.4 1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.14902 0.635294 0.411765
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.012
+          }
+        }
+      ]
+      name "solid(30)"
+    }
+    Solid {
+      translation 0 0.35 1.2
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(14)"
+    }
+    Solid {
+      translation 0 -0.52 0.9
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(15)"
+    }
+    Solid {
+      translation 0 0.72 0.9
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(16)"
+    }
+    Solid {
+      translation 0 -0.2 1.15
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.960784 0.760784 0.0666667
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(17)"
+    }
+    Solid {
+      translation 0 0.36 0.7
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(18)"
+    }
+    Solid {
+      translation 0 -0.42 1.43
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(19)"
+    }
+    Solid {
+      translation 0 -0.67 0.7
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.898039 0.647059 0.0392157
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.014
+          }
+        }
+      ]
+      name "solid(20)"
+    }
+  ]
+  name "tree(22)"
+  model "cherry tree"
+  boundingObject Pose {
+    translation 0 0 1
+    children [
+      Cylinder {
+        radius 0.1
+      }
+    ]
+  }
+  locked TRUE
+  recognitionColors [
+    0.1 0.4 0
+  ]
+}
+Solid {
+  translation 0 0 -1
+  children [
+    DEF soil1 Shape {
+      appearance Appearance {
+        texture ImageTexture {
+          url [
+            "/home/joana/ros2_ws/install/webots_worlds/share/webots_worlds/worlds/../protos/top-view-soil.jpg"
+          ]
+        }
+      }
+      geometry Box {
+        size 10 30 2
+      }
+    }
+  ]
+  name "soil1"
+  boundingObject USE soil1
+}
+Solid {
+  translation 10 0 -0.15
+  children [
+    DEF soil2 Shape {
+      appearance Appearance {
+        texture ImageTexture {
+          url [
+            "/home/joana/ros2_ws/install/webots_worlds/share/webots_worlds/worlds/../protos/top-view-soil.jpg"
+          ]
+        }
+      }
+      geometry Box {
+        size 10 30 3.75
+      }
+    }
+  ]
+  name "soil2"
+  boundingObject USE soil2
+}
+Solid {
+  translation 1.87541 11.09 0.808142
+  rotation 0.5199870554938015 -0.5199880554939083 0.6776620723211167 -1.950445307179586
+  children [
+    DEF ramp Shape {
+      appearance Appearance {
+        texture ImageTexture {
+          url [
+            "/home/joana/ros2_ws/install/webots_worlds/share/webots_worlds/worlds/../protos/top-view-soil.jpg"
+          ]
+        }
+      }
+      geometry Box {
+        size 5 0.1 6.5
+      }
+    }
+  ]
+  name "ramp"
+  boundingObject USE ramp
+}
+Robot {
+  translation -1 2.10239 0.157869
+  rotation 0 0 1 -1.5707953071795862
+  children [
+    Shape {
+      appearance DEF base_link_material PBRAppearance {
+        baseColor 0 0.6 1
+        roughness 1
+        metalness 0
+      }
+      geometry DEF Visual_base_link Mesh {
+        url [
+          "/home/joana/ros2_ws/src/Agrob4Simulation/robots/agrob_model_e/model_e_description/meshes/Visual_base_link.STL"
+        ]
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        axis 0.030589 0.999461 0.011875
+        anchor 0.028931 0.45076 0.063498
+      }
+      device [
+        RotationalMotor {
+          name "FWLeft_Joint"
+          maxTorque 10000
+        }
+        PositionSensor {
+          name "FWLeft_Joint_sensor"
+        }
+      ]
+      endPoint Solid {
+        translation 0.028931 0.45076 0.063498
+        rotation 0.5913281707897915 0.5667321636858771 0.5737121657018643 2.083621999999983
+        children [
+          Shape {
+            appearance DEF FWLeft_Link_material PBRAppearance {
+              baseColor 0 0 0
+              roughness 1
+              metalness 0
+            }
+            geometry DEF Visual_FWLeft_Link Mesh {
+              url [
+                "/home/joana/ros2_ws/src/Agrob4Simulation/robots/agrob_model_e/model_e_description/meshes/Visual_FWLeft_Link.STL"
+              ]
+            }
+          }
+          Solid {
+            children [
+              Shape {
+                appearance DEF Rim_left_Link_material PBRAppearance {
+                  baseColor 0 0.6 1
+                  roughness 1
+                  metalness 0
+                }
+                geometry DEF Visual_Rim_left_Link Mesh {
+                  url [
+                    "/home/joana/ros2_ws/src/Agrob4Simulation/robots/agrob_model_e/model_e_description/meshes/Visual_Rim_left_Link.STL"
+                  ]
+                }
+              }
+            ]
+            name "Rim_left_Link"
+            physics Physics {
+              density -1
+              mass 0.52184
+              centerOfMass [
+                0.0025 0 0
+              ]
+              inertiaMatrix [
+                0.0068388 0.0039452 0.0039452
+                0 0 0
+              ]
+            }
+          }
+        ]
+        name "FWLeft_Link"
+        boundingObject DEF FWLeft_Link Mesh {
+          url [
+            "/home/joana/ros2_ws/src/Agrob4Simulation/robots/agrob_model_e/model_e_description/meshes/FWLeft_Link.STL"
+          ]
+        }
+        physics Physics {
+          density -1
+          mass 3
+          centerOfMass [
+            0 0 0
+          ]
+          inertiaMatrix [
+            0.51127 0.28279 0.28279
+            0 0 0
+          ]
+        }
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        axis 0.030597 0.999461 0.011875
+        anchor 0.001209 -0.45376 0.052752
+      }
+      device [
+        RotationalMotor {
+          name "FWRight_Joint"
+          maxTorque 10000
+        }
+        PositionSensor {
+          name "FWRight_Joint_sensor"
+        }
+      ]
+      endPoint Solid {
+        translation 0.001209 -0.45376 0.052752
+        rotation 0.5679139275622963 -0.57865092619279 -0.5853519253380765 2.1190929999999866
+        children [
+          Shape {
+            appearance DEF FWRight_Link_material PBRAppearance {
+              baseColor 0 0 0
+              roughness 1
+              metalness 0
+            }
+            geometry DEF Visual_FWRight_Link Mesh {
+              url [
+                "/home/joana/ros2_ws/src/Agrob4Simulation/robots/agrob_model_e/model_e_description/meshes/Visual_FWRight_Link.STL"
+              ]
+            }
+          }
+          Solid {
+            children [
+              Shape {
+                appearance DEF Rim_right_Link_material PBRAppearance {
+                  baseColor 0 0.6 1
+                  roughness 1
+                  metalness 0
+                }
+                geometry DEF Visual_Rim_right_Link Mesh {
+                  url [
+                    "/home/joana/ros2_ws/src/Agrob4Simulation/robots/agrob_model_e/model_e_description/meshes/Visual_Rim_right_Link.STL"
+                  ]
+                }
+              }
+            ]
+            name "Rim_right_Link"
+            physics Physics {
+              density -1
+              mass 0.52184
+              centerOfMass [
+                0.0025 0 0
+              ]
+              inertiaMatrix [
+                0.0068388 0.0039452 0.0039452
+                0 0 0
+              ]
+            }
+          }
+        ]
+        name "FWRight_Link"
+        boundingObject DEF FWRight_Link Mesh {
+          url [
+            "/home/joana/ros2_ws/src/Agrob4Simulation/robots/agrob_model_e/model_e_description/meshes/FWRight_Link.STL"
+          ]
+        }
+        physics Physics {
+          density -1
+          mass 3
+          centerOfMass [
+            0 0 0
+          ]
+          inertiaMatrix [
+            0.51127 0.28279 0.28279
+            0 0 0
+          ]
+        }
+      }
+    }
+    Solid {
+      translation -0.12979 -0.000256 0.63534
+      rotation -0.9997301874954153 0.009838001845078066 -0.02104200394634404 1.559338
+      children [
+        Shape {
+          appearance DEF Head_Link_material PBRAppearance {
+            baseColor 0.792157 0.819608 0.933333
+            roughness 1
+            metalness 0
+          }
+          geometry DEF Visual_Head_Link Mesh {
+            url [
+              "/home/joana/ros2_ws/src/Agrob4Simulation/robots/agrob_model_e/model_e_description/meshes/Visual_Head_Link.STL"
+            ]
+          }
+        }
+      ]
+      name "Head_Link"
+      boundingObject USE Visual_Head_Link
+      physics Physics {
+        density -1
+        mass 0.415944
+        centerOfMass [
+          0.007394 0.062124 -0.003183
+        ]
+        inertiaMatrix [
+          0.009955321 0.01945061 0.01122364
+          0 0 0
+        ]
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        axis 0.999467 -0.030763 0.010959
+        anchor -0.6197 0.01986 0.024128
+        dampingConstant 0.2
+        staticFriction 0.5
+      }
+      device [
+        RotationalMotor {
+          name "Connector_Joint"
+          maxVelocity 2
+          minPosition -1
+          maxPosition 1
+        }
+        PositionSensor {
+          name "Connector_Joint_sensor"
+        }
+      ]
+      endPoint Solid {
+        translation -0.6197 0.01986 0.024128
+        rotation 0.9997332982414818 -0.02086200622357549 -0.009905002954870795 1.5708979999999582
+        children [
+          Shape {
+            appearance DEF Connector_Link_material PBRAppearance {
+              baseColor 0 0.6 1
+              roughness 1
+              metalness 0
+            }
+            geometry DEF Connector_Link Mesh {
+              url [
+                "/home/joana/ros2_ws/src/Agrob4Simulation/robots/agrob_model_e/model_e_description/meshes/Connector_Link.STL"
+              ]
+            }
+          }
+          HingeJoint {
+            jointParameters HingeJointParameters {
+              axis 0 1 0
+              dampingConstant 0.2
+              staticFriction 0.5
+            }
+            device [
+              RotationalMotor {
+                name "MowIT_connector_Joint"
+                maxVelocity 2
+                minPosition -1
+                maxPosition 1
+              }
+              PositionSensor {
+                name "MowIT_connector_Joint_sensor"
+              }
+            ]
+            endPoint Solid {
+              rotation 0 1 0 0
+              children [
+                Shape {
+                  appearance DEF MowIT_connector_Link_material PBRAppearance {
+                    baseColor 0 0.6 1
+                    roughness 1
+                    metalness 0
+                  }
+                  geometry DEF MowIT_connector_Link Mesh {
+                    url [
+                      "/home/joana/ros2_ws/src/Agrob4Simulation/robots/agrob_model_e/model_e_description/meshes/MowIT_connector_Link.STL"
+                    ]
+                  }
+                }
+                Solid {
+                  translation -0.367 0.089541 -0.002937
+                  rotation -0.6745021622700634 -0.678021163116656 0.2921200702775246 2.558404
+                  children [
+                    Shape {
+                      appearance DEF Mowit_Link_material PBRAppearance {
+                        baseColor 0 0.6 1
+                        roughness 1
+                        metalness 0
+                      }
+                      geometry DEF Visual_Mowit_Link Mesh {
+                        url [
+                          "/home/joana/ros2_ws/src/Agrob4Simulation/robots/agrob_model_e/model_e_description/meshes/Visual_Mowit_Link.STL"
+                        ]
+                      }
+                    }
+                    Solid {
+                      translation -0.038162 0.70856 0.61745
+                      rotation 0.7070356978720448 -0.014178993941083231 -0.7070356978720448 3.113246
+                      children [
+                        Shape {
+                          appearance DEF Mowit_arm_Link_material PBRAppearance {
+                            baseColor 0 0 0
+                            roughness 1
+                            metalness 0
+                          }
+                          geometry DEF Visual_Mowit_arm_Link Mesh {
+                            url [
+                              "/home/joana/ros2_ws/src/Agrob4Simulation/robots/agrob_model_e/model_e_description/meshes/Visual_Mowit_arm_Link.STL"
+                            ]
+                          }
+                        }
+                      ]
+                      name "Mowit_arm_Link"
+                      physics Physics {
+                        density -1
+                        mass 0.34842
+                        centerOfMass [
+                          0.007433 0.55 0.053197
+                        ]
+                        inertiaMatrix [
+                          0.00072557 0.0018401 0.0025325
+                          0 0 0
+                        ]
+                      }
+                    }
+                    HingeJoint {
+                      jointParameters HingeJointParameters {
+                        axis -3e-06 0.734857 0.678222
+                        anchor -0.0845 0.33216 0.32425
+                        dampingConstant 0.05
+                        staticFriction 0.05
+                      }
+                      device [
+                        RotationalMotor {
+                          name "BWLeft_Joint"
+                          maxVelocity 2
+                          minPosition -1
+                          maxPosition 1
+                        }
+                        PositionSensor {
+                          name "BWLeft_Joint_sensor"
+                        }
+                      ]
+                      endPoint Solid {
+                        translation -0.0845 0.33216 0.32425
+                        rotation -0.6807530727422134 -0.683688073055835 -0.2629560280982996 2.6133189999999997
+                        children [
+                          Shape {
+                            appearance DEF BWLeft_Link_material PBRAppearance {
+                              baseColor 0 0 0
+                              roughness 1
+                              metalness 0
+                            }
+                            geometry DEF Visual_BWLeft_Link Mesh {
+                              url [
+                                "/home/joana/ros2_ws/src/Agrob4Simulation/robots/agrob_model_e/model_e_description/meshes/Visual_BWLeft_Link.STL"
+                              ]
+                            }
+                          }
+                        ]
+                        name "BWLeft_Link"
+                        boundingObject DEF BWLeft_Link Mesh {
+                          url [
+                            "/home/joana/ros2_ws/src/Agrob4Simulation/robots/agrob_model_e/model_e_description/meshes/BWLeft_Link.STL"
+                          ]
+                        }
+                        physics Physics {
+                          density -1
+                          mass 1.5
+                          centerOfMass [
+                            0 0 0
+                          ]
+                          inertiaMatrix [
+                            0.25133 0.13614 0.13614
+                            0 0 0
+                          ]
+                        }
+                      }
+                    }
+                    HingeJoint {
+                      jointParameters HingeJointParameters {
+                        axis 3e-06 0.734857 0.678222
+                        anchor -0.0845 -0.35567 -0.31057
+                        dampingConstant 0.05
+                        staticFriction 0.05
+                      }
+                      device [
+                        RotationalMotor {
+                          name "BWRight_Joint"
+                          maxVelocity 2
+                          minPosition -1
+                          maxPosition 1
+                        }
+                        PositionSensor {
+                          name "BWRight_Joint_sensor"
+                        }
+                      ]
+                      endPoint Solid {
+                        translation -0.0845 -0.35567 -0.31057
+                        rotation 0.33788123151985056 0.3474872381019852 -0.8746935993494427 1.7000359999999732
+                        children [
+                          Shape {
+                            appearance DEF BWRight_Link_material PBRAppearance {
+                              baseColor 0 0 0
+                              roughness 1
+                              metalness 0
+                            }
+                            geometry DEF Visual_BWRight_Link Mesh {
+                              url [
+                                "/home/joana/ros2_ws/src/Agrob4Simulation/robots/agrob_model_e/model_e_description/meshes/Visual_BWRight_Link.STL"
+                              ]
+                            }
+                          }
+                        ]
+                        name "BWRight_Link"
+                        boundingObject DEF BWRight_Link Mesh {
+                          url [
+                            "/home/joana/ros2_ws/src/Agrob4Simulation/robots/agrob_model_e/model_e_description/meshes/BWRight_Link.STL"
+                          ]
+                        }
+                        physics Physics {
+                          density -1
+                          mass 1.5
+                          centerOfMass [
+                            0 0 0
+                          ]
+                          inertiaMatrix [
+                            0.25133 0.13614 0.13614
+                            0 0 0
+                          ]
+                        }
+                      }
+                    }
+                    Solid {
+                      translation -0.14624 0.24594 0.080018
+                      rotation 0.6754689384992314 -0.2957759730698946 -0.6754689384992314 2.566448
+                      children [
+                        Shape {
+                          appearance DEF mowit_blades_Link_material PBRAppearance {
+                            baseColor 0.62745 0.62745 0.62745
+                            roughness 1
+                            metalness 0
+                          }
+                          geometry DEF Visual_mowit_blades_Link Mesh {
+                            url [
+                              "/home/joana/ros2_ws/src/Agrob4Simulation/robots/agrob_model_e/model_e_description/meshes/Visual_mowit_blades_Link.STL"
+                            ]
+                          }
+                        }
+                      ]
+                      name "mowit_blades_Link"
+                      physics Physics {
+                        density -1
+                        mass 0.42425
+                        centerOfMass [
+                          0.23498 0.071995 0.011742
+                        ]
+                        inertiaMatrix [
+                          0.0010349 0.0010355 0.00079782
+                          0 0 0
+                        ]
+                      }
+                    }
+                    HingeJoint {
+                      jointParameters HingeJointParameters {
+                        anchor 0.23 0.03 -0.05
+                      }
+                      device [
+                        RotationalMotor {
+                          name "motor1"
+                          maxTorque 100
+                        }
+                        PositionSensor {
+                          name "M1_sensor"
+                        }
+                      ]
+                      endPoint Solid {
+                        translation 0.22999999999999962 0.030000000000000093 -0.05000000000000019
+                        rotation -0.3574068186278804 0.8628565621288798 -0.3574058186283879 1.7177753071795792
+                        children [
+                          DEF axel Shape {
+                            appearance PBRAppearance {
+                              baseColor 0.466667 0.462745 0.482353
+                              roughness 1
+                              metalness 0
+                            }
+                            geometry Cylinder {
+                              height 0.05
+                              radius 0.04
+                            }
+                          }
+                          Camera {
+                            translation 0.06 0 0
+                            rotation 0 1 0 -0.2617996938995747
+                            fieldOfView 1
+                            width 640
+                            height 480
+                          }
+                          Solid {
+                            translation 2.01 -0.39 0.56
+                            rotation 0 0 1 0
+                            children [
+                              DEF union Shape {
+                                appearance PBRAppearance {
+                                  baseColor 1 0 0
+                                  roughness 1
+                                  metalness 0
+                                }
+                                geometry Sphere {
+                                  radius 0.012
+                                }
+                              }
+                            ]
+                          }
+                          Solid {
+                            translation 0 0 0.055
+                            rotation 0 0 1 1.5708
+                            children [
+                              DEF union Shape {
+                                appearance PBRAppearance {
+                                  baseColor 0 0 0
+                                  roughness 1
+                                  metalness 0
+                                }
+                                geometry Box {
+                                  size 0.1 0.1 0.06
+                                }
+                              }
+                              HingeJoint {
+                                jointParameters HingeJointParameters {
+                                  position 1.57
+                                  axis -1 0 0
+                                  anchor 0 0 0.06
+                                }
+                                device [
+                                  RotationalMotor {
+                                    name "motor2"
+                                    maxTorque 100
+                                  }
+                                  PositionSensor {
+                                    name "M2_sensor"
+                                  }
+                                ]
+                                endPoint Solid {
+                                  translation 6.366924168452234e-06 -0.0005592459412403004 0.059999804395331584
+                                  rotation -0.5771671877205277 -0.5776741192794054 0.5772093635185944 2.093973735636367
+                                  children [
+                                    DEF axel2 Shape {
+                                      appearance PBRAppearance {
+                                        baseColor 0.466667 0.462745 0.482353
+                                        roughness 1
+                                        metalness 0
+                                      }
+                                      geometry Cylinder {
+                                        height 0.08
+                                        radius 0.04
+                                      }
+                                    }
+                                    Solid {
+                                      translation -1.01962e-08 -0.53 0
+                                      rotation 0 0 1 -1.5707953071795862
+                                      children [
+                                        DEF arm1 Shape {
+                                          appearance PBRAppearance {
+                                            baseColor 0 0 0
+                                            roughness 1
+                                            metalness 0
+                                          }
+                                          geometry Box {
+                                            size 1 0.1 0.1
+                                          }
+                                        }
+                                        HingeJoint {
+                                          jointParameters HingeJointParameters {
+                                            position -2.9
+                                            axis 0 0 1
+                                            anchor 0.55 0 0
+                                          }
+                                          device [
+                                            RotationalMotor {
+                                              name "motor3"
+                                              maxTorque 30
+                                            }
+                                            PositionSensor {
+                                              name "M3_sensor"
+                                            }
+                                          ]
+                                          endPoint Solid {
+                                            translation 0.55 0 0
+                                            rotation 3.215974175922523e-07 -2.6493493552390685e-06 -0.9999999999964388 2.900000000025007
+                                            children [
+                                              DEF axel3 Shape {
+                                                appearance PBRAppearance {
+                                                  baseColor 0.466667 0.462745 0.482353
+                                                  roughness 1
+                                                  metalness 0
+                                                }
+                                                geometry Cylinder {
+                                                  height 0.1
+                                                  radius 0.06
+                                                }
+                                              }
+                                              Solid {
+                                                translation 0.54 -1.46928e-07 -2.1097e-09
+                                                rotation -9.5898e-09 9.58982e-09 1 1.5708
+                                                children [
+                                                  DEF arm2 Shape {
+                                                    appearance PBRAppearance {
+                                                      baseColor 0 0 0
+                                                      roughness 1
+                                                      metalness 0
+                                                    }
+                                                    geometry Box {
+                                                      size 0.1 1 0.1
+                                                    }
+                                                  }
+                                                  SliderJoint {
+                                                    jointParameters JointParameters {
+                                                      position 0
+                                                      axis 0 -1 0
+                                                      minStop 0.0
+                                                      maxStop 0.2
+                                                    }
+                                                    device [
+                                                      LinearMotor {
+                                                        name "motor4"
+                                                        minPosition 0.0
+                                                        maxPosition 0.2
+                                                        maxForce 30
+                                                      }
+                                                      PositionSensor {
+                                                        name "M4_sensor"
+                                                      }
+                                                    ]
+                                                    endPoint Solid {
+                                                      translation 0.01 -0.50 0
+                                                      rotation 0 0 1 -1.57
+                                                      children [
+                                                        DEF prismatic_link Shape {
+                                                          appearance PBRAppearance {
+                                                            baseColor 0.3 0.3 0.8
+                                                            roughness 1
+                                                            metalness 0
+                                                          }
+                                                          geometry Box {
+                                                            size 0.4 0.05 0.05
+                                                          }
+                                                        }
+                                                        Camera {
+                                                          translation 0.2 0 0
+                                                          rotation 0 0 1 0
+                                                          name "camera_manipulator"
+                                                          fieldOfView 1.5708
+                                                          width 640
+                                                          height 480
+                                                        }
+                                                      ]
+                                                    }
+                                                  }
+                                                ]
+                                                name "arm2"
+                                                boundingObject USE arm2
+                                                physics Physics {
+                                                  density -1
+                                                  mass 1
+                                                }
+                                              }
+                                            ]
+                                            name "part2"
+                                            boundingObject USE axel3
+                                            physics Physics {
+                                            }
+                                          }
+                                        }
+                                      ]
+                                      name "arm1"
+                                      boundingObject USE arm1
+                                      physics Physics {
+                                        density -1
+                                        mass 1
+                                      }
+                                    }
+                                  ]
+                                  name "part1"
+                                  boundingObject USE axel2
+                                  physics Physics {
+                                  }
+                                }
+                              }
+                            ]
+                            name "union"
+                            boundingObject USE union
+                            physics Physics {
+                              density -1
+                              mass 0.2
+                            }
+                          }
+                        ]
+                        name "manipulator"
+                        boundingObject USE axel
+                        physics Physics {
+                        }
+                      }
+                    }
+                  ]
+                  name "Mowit_Link"
+                  boundingObject DEF Mowit_Link Mesh {
+                    url [
+                      "/home/joana/ros2_ws/src/Agrob4Simulation/robots/agrob_model_e/model_e_description/meshes/Mowit_Link.STL"
+                    ]
+                  }
+                  physics Physics {
+                    density -1
+                    mass 25
+                    centerOfMass [
+                      -0.049026 -0.003492 -0.001923
+                    ]
+                    inertiaMatrix [
+                      4.3684 2.3987 2.5219
+                      -0.12464 0.1335 -0.75467
+                    ]
+                  }
+                }
+              ]
+              name "MowIT_connector_Link"
+              boundingObject USE MowIT_connector_Link
+              physics Physics {
+                density -1
+                mass 1.6732
+                centerOfMass [
+                  -0.077224 0.03339 0.000397
+                ]
+                inertiaMatrix [
+                  0.005013 0.0030684 0.0052424
+                  0.00015857 0 0
+                ]
+              }
+            }
+          }
+        ]
+        name "Connector_Link"
+        boundingObject USE Connector_Link
+        physics Physics {
+          density -1
+          mass 2
+          centerOfMass [
+            0.078458 0 0
+          ]
+          inertiaMatrix [
+            0.00048822 0.0040984 0.0043726
+            0 0 0
+          ]
+        }
+      }
+    }
+    Solid {
+      children [
+        InertialUnit {
+          name "imu inertial"
+        }
+        Accelerometer {
+          name "imu accelerometer"
+        }
+        Gyro {
+          name "imu gyro"
+        }
+        Compass {
+          name "imu compass"
+        }
+      ]
+      name "imu_link"
+      physics Physics {
+        density -1
+        mass 0.01
+        centerOfMass [
+          0 0 0
+        ]
+        inertiaMatrix [
+          1e-06 1e-06 1e-06
+          0 0 0
+        ]
+      }
+    }
+    Solid {
+      translation 0 0 0.65
+      children [
+        Pose {
+          translation 0 -0.00165 0
+          children [
+            Shape {
+              appearance PBRAppearance {
+                baseColor 0.5 0.5 0.5
+                roughness 1
+                metalness 0
+              }
+              geometry Cylinder {
+                height 0.0727
+                radius 0.052
+              }
+            }
+          ]
+        }
+        Lidar {
+          name "velodyne_lidar"
+          horizontalResolution 1875
+          fieldOfView 6.28318
+          verticalFieldOfView 0.5236
+          numberOfLayers 16
+          minRange 0.9
+          maxRange 130
+          noise 6.2e-05
+          resolution 0.001
+        }
+      ]
+      name "velodyne_lidar"
+      boundingObject Pose {
+        translation 0 -0.00165 0
+        children [
+          Cylinder {
+            height 0.0727
+            radius 0.052
+          }
+        ]
+      }
+      physics Physics {
+        density -1
+        mass 0.83
+        centerOfMass [
+          0 0 0
+        ]
+        inertiaMatrix [
+          0.001 0.001 0.0005
+          0 0 0
+        ]
+      }
+    }
+    Solid {
+      translation 0 0 0.75
+      rotation -1.695249475406826e-09 0.7071067811865476 -0.7071067811865476 3.14159
+      children [
+        Pose {
+          rotation 0.5773502691896258 -0.5773502691896258 0.5773502691896258 2.094395
+          children [
+            Camera {
+              fieldOfView 1.396263
+              width 800
+              height 800
+              noise 0.007
+            }
+          ]
+        }
+      ]
+      name "camera_link"
+    }
+  ]
+  name "ModelE"
+  boundingObject DEF base_link Mesh {
+    url [
+      "/home/joana/ros2_ws/src/Agrob4Simulation/robots/agrob_model_e/model_e_description/meshes/base_link.STL"
+    ]
+  }
+  physics Physics {
+    density -1
+    mass 50
+    centerOfMass [
+      -0.13768 0.15486 -0.003533
+    ]
+    inertiaMatrix [
+      0.6529 0.76355 0.52314
+      -0.0017424 0.0039613 0.0028048
+    ]
+  }
+  controller "<extern>"
+}
